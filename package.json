@@ -1,0 +1,47 @@
+{
+  "name": "modbus.async",
+  "version": "0.0.2",
+  "description": "Asynchronous modbus driver suite - experimental",
+  "author": {
+    "name": "Chuck Weissman",
+    "email": "support@vytronics.com",
+    "url": "http://www.vytronics.com"
+  },
+  "main": "./lib/modbus.simple",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vytronics/hmi/drivers/modbus.async.git"
+  },
+  "maintainers": [
+    {
+      "name": "Chuck Weissman",
+      "email": "support@vytronics.com"
+    }
+  ],
+  "dependencies": {
+    "serialport": "~1.4.0",
+    "log4js": "~0.6.14"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+  },
+  "scripts": {
+  },
+  "contributors": [
+    {
+      "name": "Chuck Weissman",
+      "email": "support@vytronics.com"
+    }
+  ],
+  "readme": "\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+  },
+  "homepage": "http://www.vytronics.com/hmi",
+  "_id": "modbus.simple@0.0.0",
+  "_from": "@"
+}
