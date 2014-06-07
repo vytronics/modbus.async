@@ -97,22 +97,25 @@ Create a folder named project and a file project.json in the project folder and 
 {
   "drivers":{
     "mb_master": {
-      "type": "serial.master",
-      "serial_port": {
-        "port_name": "COM11",
-        "port_config": {
-          "baudrate": 9600
-        }
-      },
-      "mode": "ascii",
-      "blocks": {
-        "plc.4x": {
-          "type": "4x",
-          "slave_addr": 1,
-          "start_reg": 5,
-          "num_reg": 10,
-          "read_interval": 5000,
-          "timeout": 2000
+      "uri": "modbus.async" ,
+      "config": {
+        "type": "serial.master",
+        "serial_port": {
+          "port_name": "COM11",
+          "port_config": {
+            "baudrate": 9600
+          }
+        },
+        "mode": "ascii",
+        "blocks": {
+          "plc.4x": {
+            "type": "4x",
+            "slave_addr": 1,
+            "start_reg": 5,
+            "num_reg": 10,
+            "read_interval": 5000,
+            "timeout": 2000
+          }
         }
       }
     }
@@ -128,7 +131,6 @@ Create a folder named project and a file project.json in the project folder and 
     }
   }
 }
-
 ```
 
 Open a terminal or command terminal and type the following command while in the root of your sample directory.
