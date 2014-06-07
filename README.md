@@ -81,7 +81,7 @@ Paste the following contents into a file named package.json and save in the dire
     "serialport": "~1.4.0",
     "vytronics.hmi": "~0.0.0",
     "modbus.async": "~0.0.0"
-  },
+  }
 }
 ```
 
@@ -92,7 +92,7 @@ var server = require("vytronics.hmi");
 server.start();
 ```
 
-Open up the file project.json in the project folder and cut/paste to replace its contents with the JSON file below.
+Create a folder named project and a file project.json in the project folder and cut/paste JSON contents below.
 ```js
 {
   "drivers":{
