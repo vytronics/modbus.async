@@ -1,6 +1,6 @@
 {
   "name": "modbus.async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Asynchronous modbus driver suite - experimental",
   "author": {
     "name": "Chuck Weissman",
@@ -37,8 +37,6 @@
       "email": "support@vytronics.com"
     }
   ],
-  "readme": "\n",
-  "readmeFilename": "README.md",
   "bugs": {
   },
   "homepage": "http://www.vytronics.com/hmi",
